@@ -164,6 +164,7 @@ body {
       flex-wrap: wrap;
       max-width: 800px;
       justify-content: center;
+      align-items: center;
       flex-direction: column;
       gap: 30px;
       margin: 0 auto;
@@ -664,6 +665,7 @@ body {
     .es-category-2 {
       &__items {
         flex-direction: row;
+        align-items: flex-start;
         gap: 10px;
       }
 
@@ -792,7 +794,7 @@ body {
 
       &__image {
         max-width: 395px;
-        max-height: 366px;
+        max-height: 395px;
       }
     }
 
